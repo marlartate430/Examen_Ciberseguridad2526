@@ -18,7 +18,7 @@ void obtener_array_sin_reemplazo(char * const p_array, const uint8_t p_tamano);
 
 int main(void)
 {
-        char* nombre_archivo = "mensaje_cifrado1.txt";
+        char* nombre_archivo = "mensaje_cifrado.txt";
 
         FILE* archivo_cifrado = fopen(nombre_archivo, "r");
 
@@ -74,7 +74,7 @@ int main(void)
         }
         else
         {
-                printf("No se puede arbir el archivo %s", nombre_archivo);
+                printf("No se puede abrir el archivo %s\n", nombre_archivo);
         }
 
         return 0;
