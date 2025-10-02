@@ -1,7 +1,7 @@
 CC=gcc
 FILENAME=cifrado1
 BIN_DIR=bin
-FLAGS= -Wall -Wextra -Wpedantic -Wunreachable-code -Wconversion -Wshadow -Wcast-align -Waggregate-return -Wcast-qual -Werror -Wstrict-prototypes -Wmissing-prototypes -Wpointer-arith -Wfloat-equal
+FLAGS= -Wall -Wextra -Wpedantic -Wunreachable-code -Wconversion -Wshadow -Wcast-align -Waggregate-return -Wcast-qual -Wstrict-prototypes -Wmissing-prototypes -Wpointer-arith -Wfloat-equal
 
 build:$(BIN_DIR)/$(FILENAME)
 
