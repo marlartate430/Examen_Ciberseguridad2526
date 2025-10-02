@@ -1,5 +1,5 @@
-#Programa para descrifrar un mensaje del laboratorio 2
-###¿Cómo ejecutar el programa?
+# Programa para descrifrar un mensaje del laboratorio 2#
+## ¿Cómo ejecutar el programa?##
 En la ruta en la que se encuentra este README ejecuta en la terminal el comando que se muestra abajo.
 ```
 make run
